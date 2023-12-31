@@ -1,0 +1,7 @@
+import '../../../core/app_export.dart';import 'gasstationlist_item_model.dart';import 'gasstationinfo_item_model.dart';/// This class defines the variables used in the [refueling_screen],
+/// and is typically used to hold data that is passed between different parts of the application.
+class RefuelingModel {Rx<List<GasstationlistItemModel>> gasstationlistItemList = Rx([GasstationlistItemModel(gasStationName: "Petro Eco Gas Station".obs,distanceText: "12 Miles away".obs,distanceImage2:ImageConstant.imgVectorOnprimary.obs),GasstationlistItemModel(gasStationName: "Eliz Petroleum Station".obs,distanceText: "120 Miles away".obs,distanceImage2:ImageConstant.imgVectorOnprimary.obs),GasstationlistItemModel(gasStationName: "Petro Eco Gas Station".obs,distanceText: "12 Miles away".obs,distanceImage2:ImageConstant.imgVectorOnerror.obs)]);
+
+Rx<List<GasstationinfoItemModel>> gasstationinfoItemList = Rx([GasstationinfoItemModel(gasStationName: "Petro Eco Gas Station".obs,dateTime: "15-03-2023 08:48 am".obs,amount: "120,000".obs,status: "Completed".obs),GasstationinfoItemModel(gasStationName: "Elix Petroleum Station".obs,dateTime: "15-03-2023 08:48 am".obs,amount: "45,000".obs,status: "Completed".obs),GasstationinfoItemModel(gasStationName: "Elix Petroleum Station".obs,dateTime: "15-03-2023 08:48 am".obs,amount: "45,000".obs,status: "Completed".obs),GasstationinfoItemModel(gasStationName: "Elix Petroleum Station".obs,dateTime: "15-03-2023 08:48 am".obs,amount: "45,000".obs,status: "Completed".obs)]);
+
+ }
