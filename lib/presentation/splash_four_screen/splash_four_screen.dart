@@ -1,12 +1,12 @@
-import 'controller/iphone_13_14_four_controller.dart';
+import 'controller/splash_four_controller.dart';
 import 'package:abu_s_application3/core/app_export.dart';
 import 'package:abu_s_application3/widgets/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 // ignore_for_file: must_be_immutable
-class Iphone1314FourScreen extends GetWidget<Iphone1314FourController> {
-  const Iphone1314FourScreen({Key? key})
+class SplashFourScreen extends GetWidget<SplashFourController> {
+  const SplashFourScreen({Key? key})
       : super(
           key: key,
         );
@@ -71,15 +71,15 @@ class Iphone1314FourScreen extends GetWidget<Iphone1314FourController> {
               SizedBox(
                 height: 20.v,
                 child: AnimatedSmoothIndicator(
-                  activeIndex: 0,
+                  activeIndex: 3,
                   count: 3,
                   effect: ScrollingDotsEffect(
                     spacing: 10,
                     activeDotColor:
                         theme.colorScheme.secondaryContainer.withOpacity(1),
                     dotColor: appTheme.blueGray10006,
-                    dotHeight: 20.v,
-                    dotWidth: 20.h,
+                    dotHeight: 10.v,
+                    dotWidth: 10.h,
                   ),
                 ),
               ),
