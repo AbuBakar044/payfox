@@ -10,7 +10,7 @@
 
 
     <application
-        android:label="abu_s_application3"
+        android:label="PayFox"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
